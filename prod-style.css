@@ -137,3 +137,36 @@ button {
 button:hover {
     opacity: 0.8;
 }
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.back-to-home {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.back-to-home a {
+    display: inline-block;
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.back-to-home a:hover {
+    background-color: #0056b3;
+}
